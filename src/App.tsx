@@ -1,11 +1,13 @@
-
+import Basket from "./components/basket/Basket";
+import Products from "./components/products/Products";
 
 function App() {
- 
-
   return (
- <div className="bg-red-400"> hello</div>
-  )
+    <div className="flex justify-center items-center">
+      <Basket />
+      <Products />
+    </div>
+  );
 }
 
-export default App
+export default App;
